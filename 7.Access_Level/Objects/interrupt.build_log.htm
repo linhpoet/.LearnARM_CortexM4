@@ -1,0 +1,187 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Le Linh, DUT, LIC=JL28G-V6GL9-RACDM-XULYC-1MV3L-FE9CA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.32.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14.1
+Assembler:       Armasm.exe V6.14.1
+Linker/Locator:  ArmLink.exe V6.14.1
+Library Manager: ArmAr.exe V6.14.1
+Hex Converter:   FromElf.exe V6.14.1
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+E:\Desktop\ARM_Cortex\Embedded Systems Programming on ARM Cortex-M3M4 Processor\.My_code\Bai7_Access_Level\interrupt.uvprojx
+Project File Date:  06/07/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14.1', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_md.s...
+C:/Users/Linh/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/stm32f10x_exti.c(23): warning: In file included from...
+C:/Users/Linh/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_exti.h(76): warning: padding size of 'EXTI_InitTypeDef' with 1 byte to alignment boundary [-Wpadded]
+typedef struct
+        ^
+1 warning generated.
+compiling stm32f10x_exti.c...
+RTE/Device/STM32F103C8/system_stm32f10x.c(167): warning: no previous extern declaration for non-static variable 'AHBPrescTable' [-Wmissing-variable-declarations]
+__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+            ^
+RTE/Device/STM32F103C8/system_stm32f10x.c(167): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+    ^
+1 warning generated.
+compiling system_stm32f10x.c...
+C:/Users/Linh/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/src/misc.c(132): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    NVIC->IP[NVIC_InitStruct->NVIC_IRQChannel] = tmppriority;
+                                               ~ ^~~~~~~~~~~
+1 warning generated.
+compiling misc.c...
+main.c(4): warning: this function declaration is not a prototype [-Wstrict-prototypes]
+void GPIO_Config();
+                ^
+                 void
+main.c(6): warning: this function declaration is not a prototype [-Wstrict-prototypes]
+void Interrupt_Config();
+                     ^
+                      void
+main.c(8): warning: this function declaration is not a prototype [-Wstrict-prototypes]
+void EXTI0_StandardLib();
+                      ^
+                       void
+main.c(10): warning: no previous prototype for function 'Change_access_level_to_unpriv' [-Wmissing-prototypes]
+void Change_access_level_to_unpriv()
+     ^
+main.c(10): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Change_access_level_to_unpriv()
+^
+static 
+main.c(27): warning: while loop has empty body [-Wempty-body]
+        while(1);
+                ^
+main.c(27): note: put the semicolon on a separate line to silence this warning
+main.c(47): warning: no previous prototype for function 'HardFault_Handler' [-Wmissing-prototypes]
+void HardFault_Handler()
+     ^
+main.c(47): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void HardFault_Handler()
+^
+static 
+main.c(48): warning: function 'HardFault_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+main.c(1): warning: In file included from...
+C:/Users/Linh/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include\stm32f10x.h(8302): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(54): warning: In file included from...
+C:/Users/Linh/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc\stm32f10x_exti.h(76): warning: padding size of 'EXTI_InitTypeDef' with 1 byte to alignment boundary [-Wpadded]
+typedef struct
+        ^
+main.c(53): warning: no previous prototype for function 'EXTI0_StandardLib' [-Wmissing-prototypes]
+void EXTI0_StandardLib()
+     ^
+main.c(8): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
+void EXTI0_StandardLib();
+     ^
+                       void
+main.c(97): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        EXTI->RTSR &= ~0x01;    
+                   ~~ ^~~~~
+main.c(99): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        EXTI->SWIER &= ~0x01;
+                    ~~ ^~~~~
+main.c(100): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        EXTI->EMR &= ~0x01;
+                  ~~ ^~~~~
+main.c(79): warning: no previous prototype for function 'Interrupt_Config' [-Wmissing-prototypes]
+void Interrupt_Config()
+     ^
+main.c(6): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
+void Interrupt_Config();
+     ^
+                      void
+main.c(111): warning: no previous prototype for function 'GPIO_Config' [-Wmissing-prototypes]
+void GPIO_Config()
+     ^
+main.c(4): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
+void GPIO_Config();
+     ^
+                 void
+main.c(137): warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+15 warnings generated.
+compiling main.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+linking...
+Program Size: Code=1100 RO-data=252 RW-data=0 ZI-data=1632  
+FromELF: creating hex file...
+".\Objects\interrupt.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+   * Component: EXTI Version: 3.5.0
+   * Component: Framework Version: 3.5.1
+   * Component: GPIO Version: 3.5.0
+   * Component: RCC Version: 3.5.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_Target_1
+  C:\Users\Linh\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\Linh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+  C:\Users\Linh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+
+   * Component: Keil::Device:StdPeriph Drivers:EXTI:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_exti.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_exti.c
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:3.5.1
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+      Include file:  Device\StdPeriph_Driver\inc\misc.h
+      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_gpio.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.5.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
