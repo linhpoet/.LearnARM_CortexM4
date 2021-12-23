@@ -276,3 +276,13 @@
 2021-12-24 02:21:22,613 [INFO] Activator:179 - !SESSION log4j initialized
 2021-12-24 02:21:43,764 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Socket Closed
 2021-12-24 02:21:43,766 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2021-12-24 02:21:48,273 [INFO] Activator:178 - 
+
+
+2021-12-24 02:21:48,276 [INFO] Activator:179 - !SESSION log4j initialized
+2021-12-24 02:22:44,475 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2021-12-24 02:22:44,476 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2021-12-24 02:22:45,601 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2021-12-24 02:22:45,602 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2021-12-24 02:22:46,746 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2021-12-24 02:22:46,747 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443

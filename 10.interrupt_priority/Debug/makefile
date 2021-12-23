@@ -45,8 +45,8 @@ OBJCOPY_BIN += \
 all: 10.interrupt_priority.elf secondary-outputs
 
 # Tool invocations
-10.interrupt_priority.elf: $(OBJS) $(USER_OBJS) E:\Desktop\ARM_Cortex\Embedded\ Systems\ Programming\ on\ ARM\ Cortex-M3M4\ Processor\.My_code\10.interrupt_priority\STM32F407VGTX_FLASH.ld
-	arm-none-eabi-gcc -o "10.interrupt_priority.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\Desktop\ARM_Cortex\Embedded Systems Programming on ARM Cortex-M3M4 Processor\.My_code\10.interrupt_priority\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="10.interrupt_priority.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+10.interrupt_priority.elf: $(OBJS) $(USER_OBJS) E:\Desktop\ARM_Cortex\Embedded\ Systems\ Programming\ on\ ARM\ Cortex-M3M4\ Processor\.LearnARM_CortexM4\10.interrupt_priority\STM32F407VGTX_FLASH.ld
+	arm-none-eabi-gcc -o "10.interrupt_priority.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\Desktop\ARM_Cortex\Embedded Systems Programming on ARM Cortex-M3M4 Processor\.LearnARM_CortexM4\10.interrupt_priority\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="10.interrupt_priority.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
