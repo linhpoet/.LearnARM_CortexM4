@@ -1,0 +1,10 @@
+01:12:43 **** Incremental Build of configuration Debug for project 8.Stack_MSPvsPSP ****
+make -j8 all 
+arm-none-eabi-size   8.Stack_MSPvsPSP.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5252	    108	   1580	   6940	   1b1c	8.Stack_MSPvsPSP.elf
+Finished building: default.size.stdout
+ 
+
+01:12:44 Build Finished. 0 errors, 0 warnings. (took 180ms)
+

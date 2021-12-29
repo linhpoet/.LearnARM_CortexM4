@@ -130,10 +130,13 @@ int main(void)
 	uint32_t psp_value = 0x20008000;
  8000226:	4b08      	ldr	r3, [pc, #32]	; (8000248 <main+0x2c>)
  8000228:	603b      	str	r3, [r7, #0]
-	__asm volatile ("msr PSP, %0"::"r"(psp_value));
+
+   /* Khoi tao PSP */
+	__asm volatile ("msr PSP,%0"::"r"(psp_value));
  800022a:	683b      	ldr	r3, [r7, #0]
  800022c:	f383 8809 	msr	PSP, r3
-	__asm volatile ("msr CONTROL, %0"::"r"(control_reg));
+	/*change msp to psp*/
+	__asm volatile ("msr CONTROL,%0"::"r"(control_reg));
  8000230:	687b      	ldr	r3, [r7, #4]
  8000232:	f383 8814 	msr	CONTROL, r3
 

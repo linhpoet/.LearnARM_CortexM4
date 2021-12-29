@@ -23,11 +23,13 @@ void generate_interrupt()
 /* This function executes in THREAD MODE of the processor */
 int main(void)
 {
-	/*change SP from MSP to PSP*/
 	int control_reg = 0x2;
 	uint32_t psp_value = 0x20008000;
-	__asm volatile ("msr PSP, %0"::"r"(psp_value));
-	__asm volatile ("msr CONTROL, %0"::"r"(control_reg));
+
+   /* Khoi tao PSP */
+	__asm volatile ("msr PSP,%0"::"r"(psp_value));
+	/*change msp to psp*/
+	__asm volatile ("msr CONTROL,%0"::"r"(control_reg));
 
 	printf("In thread mode : before interrupt\n");
 
@@ -43,3 +45,4 @@ void RTC_WKUP_IRQHandler(void)
 {
 	printf("In handler mode : ISR\n");
 }
+
