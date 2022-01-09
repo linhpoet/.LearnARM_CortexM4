@@ -1,0 +1,10 @@
+00:44:55 **** Incremental Build of configuration Debug for project 8.3. Bit Banding ****
+make -j8 all 
+arm-none-eabi-size   8.3.\ Bit\ Banding.elf 
+   text	   data	    bss	    dec	    hex	filename
+    724	      8	   1568	   2300	    8fc	8.3. Bit Banding.elf
+Finished building: default.size.stdout
+ 
+
+00:44:56 Build Finished. 0 errors, 0 warnings. (took 134ms)
+
