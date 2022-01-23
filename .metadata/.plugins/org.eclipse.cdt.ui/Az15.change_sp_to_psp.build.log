@@ -1,4 +1,4 @@
-01:58:18 **** Incremental Build of configuration Debug for project Az15.change_sp_to_psp ****
+20:21:02 **** Build of configuration Debug for project Az15.change_sp_to_psp ****
 make -j8 all 
 arm-none-eabi-size   Az15.change_sp_to_psp.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   Az15.change_sp_to_psp.elf
 Finished building: default.size.stdout
  
 
-01:58:18 Build Finished. 0 errors, 0 warnings. (took 153ms)
+20:21:02 Build Finished. 0 errors, 0 warnings. (took 168ms)
 
