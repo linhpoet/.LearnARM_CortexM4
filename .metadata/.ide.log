@@ -2174,3 +2174,295 @@
 2022-01-23 22:06:51,518 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.25.0
 2022-01-23 22:06:52,735 [INFO] ApiDb:226 - Save user favorites file C:\Users\Linh/.stm32cubeide/favorites.mcus.txt: 0 item(s)
 2022-01-23 22:06:52,735 [INFO] ApiDb:230 - User favorites MCUs=[]
+2022-01-24 18:55:37,892 [INFO] Activator:178 - 
+
+
+2022-01-24 18:55:37,892 [INFO] Activator:179 - !SESSION log4j initialized
+2022-01-24 18:55:50,582 [INFO] ApplicationProperties:181 - Using Application install path: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2022-01-24 18:55:50,591 [INFO] DbMcusXml:70 - Set database path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2022-01-24 18:55:50,600 [INFO] DbBoardsPdsc:56 - Set plugin database path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2022-01-24 18:55:50,600 [INFO] DbMcus:258 - Set plugin images path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-01-24 18:55:50,600 [INFO] DbBoards:264 - Set plugin images path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-01-24 18:55:50,602 [INFO] DbExamples:326 - Set plugin images path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-01-24 18:55:50,611 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:50,611 [INFO] DbMcusJson:63 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:50,611 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:50,611 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:51,300 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-01-24 18:55:51,303 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:51,400 [INFO] RulesReader:52 - Compatibility file has been processed (209 Rules)
+2022-01-24 18:55:51,470 [INFO] MicroXplorer:564 - Detected Java Version = 1.8.0_252
+2022-01-24 18:55:51,470 [INFO] DbMcusXml:70 - Set database path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2022-01-24 18:55:51,470 [INFO] DbBoardsPdsc:56 - Set plugin database path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2022-01-24 18:55:51,470 [INFO] DbMcus:258 - Set plugin images path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-01-24 18:55:51,470 [INFO] DbBoards:264 - Set plugin images path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-01-24 18:55:51,470 [INFO] DbExamples:326 - Set plugin images path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-01-24 18:55:51,470 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:51,470 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:51,470 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:51,470 [INFO] DbMcusJson:63 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:51,470 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:51,470 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:51,470 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:51,470 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:51,470 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:51,470 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:52,319 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-01-24 18:55:52,321 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:52,321 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:52,410 [INFO] MainPanel:189 - HeapMemory: 269484032
+2022-01-24 18:55:52,482 [INFO] DbMcusXml:70 - Set database path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2022-01-24 18:55:52,482 [INFO] DbBoardsPdsc:56 - Set plugin database path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2022-01-24 18:55:52,482 [INFO] DbMcus:258 - Set plugin images path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-01-24 18:55:52,482 [INFO] DbBoards:264 - Set plugin images path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-01-24 18:55:52,482 [INFO] DbExamples:326 - Set plugin images path to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-01-24 18:55:52,482 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:52,482 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:52,482 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:52,482 [INFO] DbMcusJson:63 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:52,482 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:52,482 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:52,482 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:52,482 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:52,482 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:52,482 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:53,320 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-01-24 18:55:53,321 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Linh\.stmcufinder\plugins\mcufinder/ => C:\Users\Linh\.stmcufinder\plugins\mcufinder
+2022-01-24 18:55:53,321 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\Linh\.stmcufinder\plugins\mcufinder//mcu/
+2022-01-24 18:55:53,340 [INFO] ApplicationProperties:181 - Using Application install path: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2022-01-24 18:55:53,340 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2022-01-24 18:55:53,340 [INFO] PluginManage:292 - Check plugin analytics
+2022-01-24 18:55:54,340 [INFO] AnalyticsPlugin:203 - Accepted Software Licenses: STM32CubeMX.6.0.1
+2022-01-24 18:55:54,340 [INFO] AnalyticsPlugin:205 - Accepted CMSIS Pack Licenses: 
+2022-01-24 18:55:54,340 [INFO] AnalyticsPlugin:207 - Accepted Firmware Licenses: 
+2022-01-24 18:55:54,340 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-01-24 18:55:54,340 [INFO] PluginManage:292 - Check plugin clock
+2022-01-24 18:55:54,362 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2022-01-24 18:55:54,362 [INFO] PluginManage:292 - Check plugin ddr
+2022-01-24 18:55:54,362 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-01-24 18:55:54,362 [INFO] PluginManage:292 - Check plugin filemanager
+2022-01-24 18:55:54,471 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-01-24 18:55:54,471 [INFO] PluginManage:292 - Check plugin ipmanager
+2022-01-24 18:55:54,482 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-01-24 18:55:54,482 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2022-01-24 18:55:54,491 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-01-24 18:55:54,491 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2022-01-24 18:55:54,522 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-01-24 18:55:54,522 [INFO] PluginManage:292 - Check plugin power
+2022-01-24 18:55:54,530 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2022-01-24 18:55:54,530 [INFO] PluginManage:292 - Check plugin projectmanager
+2022-01-24 18:55:54,541 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-01-24 18:55:54,541 [INFO] PluginManage:292 - Check plugin thirdparty
+2022-01-24 18:55:54,711 [INFO] ThirdPartyDb:333 - Open Third Party DataBase File (C:/Users/Linh/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 70 ms. number of Sw pack : 69
+2022-01-24 18:55:54,722 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-01-24 18:55:54,722 [INFO] PluginManage:292 - Check plugin tools
+2022-01-24 18:55:54,771 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2022-01-24 18:55:54,771 [INFO] PluginManage:292 - Check plugin tutovideos
+2022-01-24 18:55:54,950 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2022-01-24 18:55:54,950 [INFO] PluginManage:292 - Check plugin updater
+2022-01-24 18:55:54,962 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2022-01-24 18:55:54,962 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2022-01-24 18:55:55,126 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2022-01-24 18:55:55,202 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,202 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2022-01-24 18:55:55,231 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,231 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2022-01-24 18:55:55,268 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,268 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2022-01-24 18:55:55,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,287 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2022-01-24 18:55:55,311 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,311 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2022-01-24 18:55:55,337 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,337 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2022-01-24 18:55:55,367 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,369 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2022-01-24 18:55:55,390 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,390 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2022-01-24 18:55:55,421 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,421 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2022-01-24 18:55:55,439 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,440 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2022-01-24 18:55:55,452 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,452 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2022-01-24 18:55:55,511 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,511 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2022-01-24 18:55:55,583 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,583 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2022-01-24 18:55:55,590 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,590 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2022-01-24 18:55:55,642 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,642 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2022-01-24 18:55:55,690 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,690 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2022-01-24 18:55:55,742 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,742 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2022-01-24 18:55:55,780 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,780 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2022-01-24 18:55:55,790 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,790 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2022-01-24 18:55:55,810 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,810 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2022-01-24 18:55:55,822 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,822 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2022-01-24 18:55:55,831 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,831 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2022-01-24 18:55:55,859 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,859 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2022-01-24 18:55:55,899 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,899 [INFO] PluginManager:200 - loadIPPluginJar : add openamp
+2022-01-24 18:55:55,930 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,930 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2022-01-24 18:55:55,940 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,940 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2022-01-24 18:55:55,963 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,963 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2022-01-24 18:55:55,971 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:55,971 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2022-01-24 18:55:56,010 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:56,010 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2022-01-24 18:55:56,040 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:56,040 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2022-01-24 18:55:56,070 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:56,070 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2022-01-24 18:55:56,091 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:56,091 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2022-01-24 18:55:56,131 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:56,131 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2022-01-24 18:55:56,151 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:56,151 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2022-01-24 18:55:56,179 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:56,179 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2022-01-24 18:55:56,200 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:56,200 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2022-01-24 18:55:56,211 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:56,211 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2022-01-24 18:55:56,251 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-01-24 18:55:56,251 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2022-01-24 18:55:56,722 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: null
+2022-01-24 18:55:57,340 [FATAL] Updater:282 - Updater called before beeing initialized
+2022-01-24 18:55:57,490 [FATAL] Updater:282 - Updater called before beeing initialized
+2022-01-24 18:55:57,490 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2022-01-24 18:55:57,490 [INFO] ThirdParty:777 - entering critical section [close project]
+2022-01-24 18:55:57,492 [INFO] ThirdParty:790 - exiting critical section [close project]
+2022-01-24 18:55:57,492 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2022-01-24 18:55:57,492 [FATAL] Updater:282 - Updater called before beeing initialized
+2022-01-24 18:55:57,501 [ERROR] Updater:967 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2022-01-24 18:55:57,509 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2022-01-24 18:55:57,511 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin\STM32_Programmer_CLI.exe -l
+2022-01-24 18:55:57,852 [INFO] MainDdrPanel:49 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2022-01-24 18:55:57,988 [INFO] Updater:904 - Updater Version found : 6.0.0
+2022-01-24 18:55:58,018 [INFO] ApplicationProperties:181 - Using Application install path: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2022-01-24 18:55:58,653 [INFO] MainUpdater:2268 - connection check result : 10
+2022-01-24 18:55:58,654 [INFO] MainUpdater:239 - Updater Check For Update Now.
+2022-01-24 18:55:58,655 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2022-01-24 18:55:58,730 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2022-01-24 18:55:58,800 [INFO] MainUpdater:2268 - connection check result : 10
+2022-01-24 18:55:59,240 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-01-24 18:55:59,415 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\Linh\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2022-01-24 18:55:59,424 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2022-01-24 18:55:59,433 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2022-01-24 18:55:59,435 [INFO] DbMcusXml:100 - Load MCU database from D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/families.xml
+2022-01-24 18:56:00,528 [INFO] DbMcusJson:92 - JSON generation date=Tue Nov 16 23:17:54 ICT 2021 (1637079474)
+2022-01-24 18:56:00,731 [WARN] IntegrityCheckThread:61 - waiting for thirdparty lock release [integrity check]
+2022-01-24 18:56:00,731 [INFO] IntegrityCheckThread:63 - entering critical section [integrity check]
+2022-01-24 18:56:01,754 [INFO] DbMcus:175 - Found 1761 MCUs (1722 are supported by CubeMX, 1911 are visible in CubeMX)
+2022-01-24 18:56:01,755 [INFO] ApiDb:201 - Load user favorites file C:\Users\Linh/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-01-24 18:56:01,755 [INFO] ApiDb:205 - User favorites MCUs=[]
+2022-01-24 18:56:01,770 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2022-01-24 18:56:02,213 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/Linh/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2022-01-24 18:56:02,305 [INFO] LoadUrlFilesThread:162 - End of LoadServerUrlFiles without Thread
+2022-01-24 18:56:02,317 [INFO] DetailPanel:331 - Set advertising image to C:/Users/Linh/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2022-01-24 18:56:02,332 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/Linh/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2022-01-24 18:56:02,449 [INFO] IntegrityCheckThread:76 - exiting critical section [integrity check]
+2022-01-24 18:56:02,449 [INFO] IntegrityCheckThread:79 - End integrity checks thread
+2022-01-24 18:56:03,128 [INFO] McuFilterPanel:245 - Update 0 favorites MCUs
+2022-01-24 18:56:03,242 [INFO] DbBoardsPdsc:94 - Found 23 items
+2022-01-24 18:56:03,253 [INFO] DbBoardsPdsc:94 - Found 9 items
+2022-01-24 18:56:03,264 [INFO] DbBoardsPdsc:94 - Found 29 items
+2022-01-24 18:56:03,277 [INFO] DbBoardsPdsc:94 - Found 1 items
+2022-01-24 18:56:03,290 [INFO] DbBoardsPdsc:94 - Found 44 items
+2022-01-24 18:56:03,306 [INFO] DbBoardsPdsc:94 - Found 40 items
+2022-01-24 18:56:03,317 [INFO] DbBoardsPdsc:94 - Found 2 items
+2022-01-24 18:56:03,326 [INFO] DbBoardsPdsc:94 - Found 4 items
+2022-01-24 18:56:03,334 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-01-24 18:56:03,335 [WARN] DbBoardsPdsc:258 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2022-01-24 18:56:03,340 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-01-24 18:56:03,340 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-01-24 18:56:03,340 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-01-24 18:56:03,415 [INFO] DbBoardsJson:85 - JSON generation date=Tue Nov 16 23:17:54 ICT 2021 (1637079474)
+2022-01-24 18:56:03,426 [INFO] DbBoards:117 - Found 166 boards (149 are supported by CubeMX)
+2022-01-24 18:56:03,439 [INFO] DbBoardsDocs:145 - JSON generation date=Tue Nov 16 23:17:54 ICT 2021 (1637079474)
+2022-01-24 18:56:03,446 [INFO] DbBoardsDocs:81 - Found 209 boards documents
+2022-01-24 18:56:03,447 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2022-01-24 18:56:03,448 [WARN] DbBoards:127 - board NUCLEO-H743ZI has no document id list !
+2022-01-24 18:56:03,449 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-01-24 18:56:03,450 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-01-24 18:56:03,450 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2022-01-24 18:56:03,450 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2022-01-24 18:56:03,450 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2022-01-24 18:56:03,450 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2022-01-24 18:56:03,450 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-01-24 18:56:03,451 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2022-01-24 18:56:03,451 [WARN] DbBoards:127 - board STEVAL-STWINKT1B has no document id list !
+2022-01-24 18:56:03,451 [WARN] DbBoards:127 - board STM32439I-EVAL2 has no document id list !
+2022-01-24 18:56:03,451 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2022-01-24 18:56:03,452 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2022-01-24 18:56:03,453 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2022-01-24 18:56:03,454 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2022-01-24 18:56:03,455 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2022-01-24 18:56:03,455 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2022-01-24 18:56:03,455 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2022-01-24 18:56:03,596 [ERROR] DbBoards:189 - Image file not found for board B-L462E-CELL1: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/B-L462E-CELL1_small.jpg
+2022-01-24 18:56:03,702 [ERROR] DbBoards:189 - Image file not found for board B-U585I-IOT02A: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/B-U585I-IOT02A_small.jpg
+2022-01-24 18:56:03,855 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-F413ZH: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo-f413zh_small.jpg
+2022-01-24 18:56:04,019 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-L552ZE-Q: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo_l552ze_q_small.jpg
+2022-01-24 18:56:04,020 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-U575ZI-Q: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo-u575zi-q_small.jpg
+2022-01-24 18:56:04,020 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-WB15CC: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo-wb15cc_small.jpg
+2022-01-24 18:56:04,020 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-WB55RG: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo-wb55rg_small.jpg
+2022-01-24 18:56:04,020 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-WL55JC: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2022-01-24 18:56:04,198 [ERROR] DbBoards:189 - Image file not found for board STEVAL-STWINKT1B: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2022-01-24 18:56:04,617 [ERROR] DbBoards:189 - Image file not found for board STM32G0C1E-EV: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/stm32g0c1e-eval_small.jpg
+2022-01-24 18:56:04,751 [ERROR] DbBoards:189 - Image file not found for board STM32H7B3I-EVAL: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2022-01-24 18:56:05,176 [ERROR] DbBoards:189 - Image file not found for board STM32U575I-EV: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/stm32u575i-ev_small.jpg
+2022-01-24 18:56:05,302 [ERROR] DbBoards:189 - Image file not found for board STM32WB5MM-DK: D:\Programs\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/STM32WB5MM-DK_small.jpg
+2022-01-24 18:56:05,303 [INFO] ApiDb:201 - Load user favorites file C:\Users\Linh/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-01-24 18:56:05,303 [INFO] ApiDb:205 - User favorites Boards=[]
+2022-01-24 18:56:05,303 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2022-01-24 18:56:14,820 [INFO] DbMcusDocs:145 - JSON generation date=Tue Nov 16 23:17:54 ICT 2021 (1637079474)
+2022-01-24 18:56:14,985 [INFO] DbMcusDocs:81 - Found 682 MCUs documents
+2022-01-24 18:56:18,465 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-24 18:56:18,467 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-01-24 18:56:19,607 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-01-24 18:56:19,607 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-01-24 18:56:20,758 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-24 18:56:20,759 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-01-24 18:57:08,883 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.25.2
+2022-01-24 18:57:08,883 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.25.1
+2022-01-24 18:57:08,883 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.25.0
+2022-01-24 18:57:12,590 [INFO] ApiDb:226 - Save user favorites file C:\Users\Linh/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-01-24 18:57:12,590 [INFO] ApiDb:230 - User favorites MCUs=[]
+2022-01-25 01:28:19,179 [INFO] Activator:178 - 
+
+
+2022-01-25 01:28:19,188 [INFO] Activator:179 - !SESSION log4j initialized
+2022-01-25 01:29:24,793 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-25 01:29:24,796 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-01-25 01:29:25,889 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-01-25 01:29:25,889 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-01-25 01:29:27,043 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-25 01:29:27,044 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-01-25 01:32:31,284 [INFO] Activator:178 - 
+
+
+2022-01-25 01:32:31,287 [INFO] Activator:179 - !SESSION log4j initialized
+2022-01-25 01:32:52,859 [INFO] Activator:178 - 
+
+
+2022-01-25 01:32:52,862 [INFO] Activator:179 - !SESSION log4j initialized
+2022-01-25 01:33:21,914 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-25 01:33:21,915 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-01-25 01:33:23,038 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-01-25 01:33:23,038 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-01-25 01:33:24,167 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-25 01:33:24,167 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
