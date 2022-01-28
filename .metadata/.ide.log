@@ -2466,3 +2466,67 @@
 2022-01-25 01:33:23,038 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
 2022-01-25 01:33:24,167 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
 2022-01-25 01:33:24,167 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-01-27 19:00:16,874 [INFO] Activator:178 - 
+
+
+2022-01-27 19:00:16,874 [INFO] Activator:179 - !SESSION log4j initialized
+2022-01-27 19:00:33,674 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Connection reset
+2022-01-27 19:00:33,689 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:33,689 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:33,689 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:33,689 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:33,689 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:33,892 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:33,892 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:33,892 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:33,892 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:33,892 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:33,892 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:33,892 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:33,892 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:33,908 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:33,908 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:33,908 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:33,908 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:33,908 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:33,908 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:33,908 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:33,908 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:33,908 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:33,908 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:34,111 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:34,111 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:34,111 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:34,111 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:00:34,111 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {}->http://sw-center.st.com:80: Network is unreachable: connect
+2022-01-27 19:00:34,111 [INFO] RetryExec:113 - Retrying request to {}->http://sw-center.st.com:80
+2022-01-27 19:06:08,452 [INFO] Activator:178 - 
+
+
+2022-01-27 19:06:08,452 [INFO] Activator:179 - !SESSION log4j initialized
+2022-01-27 19:07:13,188 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-27 19:07:13,190 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-01-27 19:07:14,309 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-01-27 19:07:14,309 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-01-27 19:07:15,479 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-27 19:07:15,479 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-01-29 01:05:32,006 [INFO] Activator:178 - 
+
+
+2022-01-29 01:05:32,009 [INFO] Activator:179 - !SESSION log4j initialized
+2022-01-29 01:06:28,776 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-29 01:06:28,781 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-01-29 01:06:29,896 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-01-29 01:06:29,896 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-01-29 01:06:31,068 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-29 01:06:31,069 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-01-29 01:31:44,860 [INFO] Activator:178 - 
+
+
+2022-01-29 01:31:44,864 [INFO] Activator:179 - !SESSION log4j initialized
+2022-01-29 01:32:28,817 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-29 01:32:28,820 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-01-29 01:32:29,965 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-01-29 01:32:29,965 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-01-29 01:32:31,129 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-01-29 01:32:31,130 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443

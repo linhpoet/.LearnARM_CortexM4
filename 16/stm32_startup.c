@@ -8,6 +8,14 @@
 
 #define STACK_START	SRAM_END
 
+extern uint32_t _end_of_text;
+extern uint32_t _start_data;
+extern uint32_t _end_data;
+extern uint32_t _start_bss;
+extern uint32_t _end_bss;
+
+int main(void);
+
 void Reset_Handler(void);
 
 /*
@@ -219,9 +227,25 @@ void Default_Handler(void)
 void Reset_Handler()
 {
 	//1. copy the .data section to SRAM
+	uint32_t size = (uint32_t)&_end_data - (uint32_t)&_start_data;		//size of .data section
 
+	uint8_t *pDst = (uint8_t*)&_start_data;			//sSRAM
+	uint8_t *pSrc = (uint8_t*)&_end_of_text;		//end_of_text ở đây là end rodataFLASH
+
+	for(uint32_t i=0; i<size; i++)
+	{
+		//copy Flash into Sram theo từng byte 1
+		*pDst++ = *pSrc++;
+	}
 	//2. Init the .bss section to zero in SRAM
-
+	size = &_end_bss - &_start_bss;
+	pDst = (uint8_t*)_start_bss;
+	for(uint32_t i=0; i<size; i++)
+	{
+		//.bss section store uninitialized data so = 0
+		*pDst++ = 0;
+	}
 	//3. call main()
+	main();
 }
 

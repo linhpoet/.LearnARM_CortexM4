@@ -18,6 +18,7 @@ let's say SVC #0x25
 #include<stdint.h>
 int main(void)
 {
+	/*generate SVC interrupt*/
 	__asm volatile ("SVC #25");
 
 	//register uint32_t data __asm("r0");

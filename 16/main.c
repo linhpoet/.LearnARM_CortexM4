@@ -38,6 +38,9 @@ uint8_t current_task = 1; //task1 is running
 /* This variable gets updated from systick handler for every systick interrupt */
 uint32_t g_tick_count = 0;
 
+const uint32_t const_v_1 = 100;
+const uint32_t const_v_2 = 100;
+const uint8_t const_v_3 = 100;
 /* This is a task control block carries private information of each task */
 typedef struct
 {
@@ -380,20 +383,20 @@ void  SysTick_Handler(void)
 //2. implement the fault handlers
 void HardFault_Handler(void)
 {
-	printf("Exception : Hardfault\n");
+	//printf("Exception : Hardfault\n");
 	while(1);
 }
 
 
 void MemManage_Handler(void)
 {
-	printf("Exception : MemManage\n");
+	//printf("Exception : MemManage\n");
 	while(1);
 }
 
 void BusFault_Handler(void)
 {
-	printf("Exception : BusFault\n");
+	//printf("Exception : BusFault\n");
 	while(1);
 }
 
