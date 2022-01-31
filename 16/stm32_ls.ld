@@ -17,6 +17,7 @@ SECTIONS
         _end_of_text = .;   
     }>FLASH AT> FLASH
 
+    _la_data = LOADADDR(.data);
     .data :
     {
         _start_data = .;
@@ -28,9 +29,13 @@ SECTIONS
     .bss :
     {
         _start_bss = .;
+        __bss_start__ = _start_bss;
         *(.bss)
         *(COMMON)
         . = ALIGN(4);
         _end_bss = .;
+        __bss_end__ = _end_bss;
+        . = ALIGN(4);
+        end = .;
     }> SRAM
 }

@@ -13,8 +13,11 @@ extern uint32_t _start_data;
 extern uint32_t _end_data;
 extern uint32_t _start_bss;
 extern uint32_t _end_bss;
+extern uint32_t _la_data;
 
 int main(void);
+
+void __libc_init_array(void);
 
 void Reset_Handler(void);
 
@@ -229,8 +232,8 @@ void Reset_Handler()
 	//1. copy the .data section to SRAM
 	uint32_t size = (uint32_t)&_end_data - (uint32_t)&_start_data;		//size of .data section
 
-	uint8_t *pDst = (uint8_t*)&_start_data;			//sSRAM
-	uint8_t *pSrc = (uint8_t*)&_end_of_text;		//end_of_text ở đây là end rodataFLASH
+	uint8_t *pDst = (uint8_t*)&_start_data;			//top of SRAM
+	uint8_t *pSrc = (uint8_t*)&_la_data;		// =start_data in Flash = end_of_text ở đây là end rodataFLASH
 
 	for(uint32_t i=0; i<size; i++)
 	{

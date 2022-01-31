@@ -31,6 +31,16 @@ uint32_t get_psp_value(void);
 
 void task_delay(uint32_t tick_count);
 
+struct sinhvien                //khai bao struct, khong ton bo nho
+{
+    char ten[20];
+    int tuoi;
+    float chieucao;
+};
+	Linh.chieucao=2;
+	Linh.tuoi = 18;
+	
+struct sinhvien Linh, Long;
 
 /* This variable tracks the current_task being executed on the CPU */
 uint8_t current_task = 1; //task1 is running
